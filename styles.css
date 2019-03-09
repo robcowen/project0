@@ -1,3 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Prompt);
+html {
+  font-family: "Prompt", sans-serif;
+}
 
+.pageHeader {
+  margin: 20px;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .pageHeader {
+    font-size: 30px;
+  }
+}
+@media (min-width: 992px) {
+  .pageHeader {
+    font-size: 50px;
+  }
+}
+#fishTable tbody tr td:nth-of-type(2) {
+  font-style: italic;
+}
+#fishTable tbody tr td:nth-of-type(3) {
+  text-align: center;
+}
+
+img {
+  border-radius: 20px;
+}
+
+#shrimp, #tetra, #platies, #betta {
+  width: 90vw;
+  height: 90vh;
+  border-radius: 20px;
+  padding: 10px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+#betta {
+  background-image: url("images/betta.jpg");
+}
+
+#platies {
+  background-image: url("images/platies.jpg");
+}
+
+#tetra {
+  background-image: url("images/tetra.jpg");
+}
+
+#shrimp {
+  background-image: url("images/shrimp.jpg");
+}
 
 /*# sourceMappingURL=styles.css.map */

@@ -4,7 +4,6 @@
         <title>My Fish</title>
         <link rel="stylesheet" href="styles.css?1.00">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
     </head>
     <body>
       <div class="container-fluid">
@@ -35,14 +34,14 @@
         </nav>
         <section class="row">
           <div class="col">
-            <h1>Say hello world to my little friends...</h1>
+            <h1 class="pageHeader">Say hello world to my little friends...</h1>
           </div>
         </section>
         <section class="row">
-          <div class="col">
+          <div class="col-lg">
             <img src="images/tank.jpg" class="img-fluid" />
           </div>
-          <div class="col">
+          <div class="col-lg">
             <p>
               In January I bought my first aquarium. Here are the specs:
               <ul>
@@ -74,6 +73,83 @@
                 </li>
               </ul>
             </p>
+            <p>
+              ...and here are my fish:
+            </p>
+            <table class="table table-responsive table-striped" id="fishTable">
+              <thead>
+                <tr>
+                  <th>
+                    Species
+                  </th>
+                  <th>
+                    Scientific name
+                  </th>
+                  <th>
+                    Quantity
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    Crowntail betta (male)
+                  </td>
+                  <td>
+                    Betta splendens
+                  </td>
+                  <td>
+                    1
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Platy
+                  </td>
+                  <td>
+                    Xiphophorus maculatus
+                  </td>
+                  <td>
+                    4
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Glowlight tetra
+                  </td>
+                  <td>
+                    Hemigrammus erythrozonus
+                  </td>
+                  <td>
+                    6
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Cherry shrimp
+                  </td>
+                  <td>
+                    Neocaridina davidi
+                  </td>
+                  <td>
+                    3
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Amano shrimp
+                  </td>
+                  <td>
+                    Caridina multidentata
+                  </td>
+                  <td>
+                    7
+                  </td>
+                </tr>
+              </tbody>
+
+
+            </table>
           </div>
         </section>
       </div>
