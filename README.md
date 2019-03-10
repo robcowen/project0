@@ -1,10 +1,14 @@
 # Project 0
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ** Web Programming with Python and JavaScript **
 =======
 Web Programming with Python and JavaScript
 >>>>>>> 91b1f8fc998ccf354a2244b47edf9ce56e61dd71
+=======
+** Web Programming with Python and JavaScript **
+>>>>>>> 66968b4af8a21f385507bf235dcd6b8d6265a7fe
 
 I have created a website about my aquarium.
 
